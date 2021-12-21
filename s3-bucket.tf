@@ -4,7 +4,7 @@ module "s3_bucket" {
 
   bucket = "hairball"
   acl    = "private"
-  bucket_prefix = var.prefix
+
 
   versioning = {
     enabled = true
